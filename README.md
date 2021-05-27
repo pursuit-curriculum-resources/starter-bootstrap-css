@@ -44,7 +44,7 @@ This will make it easier to stay focused on the component we need to style.
 
 ## Getting started
 
-**Note:** some classes for images are already set so that they are not too large to work with as we build. We could easily set the images to `width:100px` in the `main.css` until we are ready to size them correctly too.
+**Note:** some classes for images are already set so that they are not too large to work with as we build. The images are also set to `width:100px` in the `main.css` until we are ready to size them correctly too. Once they are sized with bootstrap, we can remove this code from the `main.css`
 
 There are a few ways to get Bootstrap into your project. We'll start with just adding a `link` tag. This tag works just like any css you'd write yourself. It is hosted elsewhere on the internet, but it will bring in all the code.
 [Get the link](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
@@ -241,6 +241,14 @@ For the final input with type `checkbox` add the classes `form-check-input`
 
 Finally, let's style the submit button by adding the classes `btn btn-primary`
 
-## Bonus
+## Bonus - Finished early?
+
+Try adding different fonts, font color and background-color, to add your own style in the `main.css` file.
 
 You'll see in the `main.css` file that the `nav` `display` is set to `none`. Remove that code and go back to the mockup image. Use the Bootstrap documentation to get it styled like the mockup.
+
+This navigation bar is responsive, so just adding the right classes should automatically change the appearance based on the width of the browser window.
+
+![nav bar short width](./assets/nav-bar-long.png)
+
+![nav bar larger width](./assets/nav-bar-short.png)
