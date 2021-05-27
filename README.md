@@ -44,6 +44,11 @@ This will make it easier to stay focused on the component we need to style.
 
 ## Getting started
 
+- [Clone this project onto your computer ](https://github.com/joinpursuit/Intro-to-Bootstrap-CSS-Code-Along/tree/main)
+- Navigate to the `build` folder and open this project with your code editor
+- You will be working in mostly `index.html` and little bit `main.css`
+- You have access to the `complete` build, because catching errors in HTML and CSS can be really hard, so you have a solution, even if you have a typo during the class build as a reference.
+
 **Note:** some classes for images are already set so that they are not too large to work with as we build. The images are also set to `width:100px` in the `main.css` until we are ready to size them correctly too. Once they are sized with bootstrap, we can remove this code from the `main.css`
 
 There are a few ways to get Bootstrap into your project. We'll start with just adding a `link` tag. This tag works just like any css you'd write yourself. It is hosted elsewhere on the internet, but it will bring in all the code.
