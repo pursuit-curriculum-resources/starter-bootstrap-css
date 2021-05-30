@@ -257,3 +257,16 @@ This navigation bar is responsive, so just adding the right classes should autom
 ![nav bar short width](./assets/nav-bar-long.png)
 
 ![nav bar larger width](./assets/nav-bar-short.png)
+
+## Bonus Bonus
+
+Bootstrap has also been built to integrate with react with custom components. The npm package is called [react-bootstrap ](https://react-bootstrap.github.io/getting-started/introduction).
+
+Rebuild Rosier in React. Be sure to use all the components available (see the left menu under `components`. For example, be sure to check out: 
+- cards
+- table
+- buttons
+- forms
+- navs
+
+
