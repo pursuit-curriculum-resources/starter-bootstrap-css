@@ -108,7 +108,7 @@ If we go back to our starter image we have a row of 3 cards. Let's set up the di
 We will also need to add a few more classes to determine how we want our items in our row to align
 
 ```html
-<div class="row align-items-stretch">...</div>
+<div class="row">...</div>
 ```
 
 We then have three cards that we need to add the same styles
