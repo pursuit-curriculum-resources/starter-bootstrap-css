@@ -104,12 +104,7 @@ If we go back to our starter image we have a row of 3 cards. Let's set up the di
 ```html
 <div class="row">...</div>
 ```
-
-We will also need to add a few more classes to determine how we want our items in our row to align
-
-```html
-<div class="row">...</div>
-```
+**Important** One image does not have the same aspect ratio as the other two. Even bootstrap cannot solve this easily. When working with images, the best soution is to edit them with a photo/image editor. Many images from places like Unsplash are simply too large in file size for the browser view. Reducing the image sizes to an appropriate for web browsing size will help decrease load times. Additionally, an image editor can help set the correct aspect ratio/sizes so that your images have consistent sizing, which will make yours CSS work much, much easier. 
 
 We then have three cards that we need to add the same styles
 
