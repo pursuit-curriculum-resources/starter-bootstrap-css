@@ -77,6 +77,7 @@ Below the `nav`, there is a div with an `id` of hero. Let's add the appropriate 
 ```html
 <div class="container-fluid" id="hero"></div>
 ```
+**Note** - in `main.css` all images are set to `width:100px` - that was just to help us see the starting page. We can remove or comment out that code now. 
 
 Next, in the img inside of that div, add the class `img-fluid` - this will also keep the image at 100% width.
 
