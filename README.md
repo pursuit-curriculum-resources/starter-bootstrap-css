@@ -104,8 +104,27 @@ If we go back to our starter image we have a row of 3 cards. Let's set up the di
 ```html
 <div class="row">...</div>
 ```
-**Important** One image does not have the same aspect ratio as the other two. Even bootstrap cannot solve this easily. When working with images, the best soution is to edit them with a photo/image editor. Many images from places like Unsplash are simply too large in file size for the browser view. Reducing the image sizes to an appropriate for web browsing size will help decrease load times. Additionally, an image editor can help set the correct aspect ratio/sizes so that your images have consistent sizing, which will make yours CSS work much, much easier. 
+<details><summary>
+  Other approaches to consistent design
+  </sumary>
+ Bootstrap can solve a lot of things, but it can't solve all the things. Here are some things that are better solved in a different way:
+  
+One image does not have the same aspect ratio as the other two.  When working with images, the best soution is to edit them with a photo/image editor. Many images from places like Unsplash are simply too large in file size for the browser view. Reducing the image sizes to an appropriate for web browsing size will help decrease load times. Additionally, an image editor can help set the correct aspect ratio/sizes so that your images have consistent sizing, which will make yours CSS work much, much easier. 
 
+Another thing we notice is that the text for the Yellow rose, in most views, wraps to another line, also causing our card to lack consistent design. One way we can overcome this is to customize the appearance ourselves
+  
+ 
+
+**main.css**
+```
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+```
+ </details>
+ 
 We then have three cards that we need to add the same styles
 
 - The outer div will be `card col`
